@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Memories of New York</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div id="info">
+		<h1>MEMORIES OF NEW YORK</h1>
+		Scene: <button id="empire-state-building">Empire State Building</button>
+		<button id="times-square-aerial">Times Square - Aerial</button>
+		<button id="times-square">Times Square</button>
+		<button id="wtc">One World Trade Center</button>
+		<br>
+		Music: <button id="theme-from-ny-ny">Theme From New York, New York</button>
+		<button id="empire-state-of-mind">Empire State of Mind</button>
+		<button id="welcome-to-new-york">Welcome To New York</button>
+		<button id="music-stop">Stop</button>
+		<br>
+		Object: <button id="plane">Plane</button>
+		<button id="balloon">Balloon</button>
+		<button id="helicopter">Helicopter</button>
+		<button id="penguin">Penguin</button>
+		<button id="paper-plane">Paper Plane</button>
+		<button id="cloud">Cloud</button>
+		<button id="car">Car</button>
+
+		<button id="none">None</button>
+	</div>
+
+	<div id="container"></div>
+
+	<video id="video" loop muted crossOrigin="anonymous" playsinline style="display:none">
+		<source src="video/TimesSquareAerial.mp4">
+	</video>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/three.js"></script>
+	<script src="js/OBJLoader.js"></script>
+	<script src="js/MTLLoader.js"></script>
+	<script src="js/sketch.js"></script>
+
+</body>
+
+</html>
